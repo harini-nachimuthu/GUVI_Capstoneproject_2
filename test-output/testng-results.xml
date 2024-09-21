@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="11" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-21T12:37:14 IST" name="Suite" finished-at="2024-09-21T12:42:56 IST" duration-ms="342723">
+    <groups>
+      <group name="regression">
+        <method signature="Logintest.login(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Tests.Logintest@324a0017]" name="login" class="Tests.Logintest"/>
+        <method signature="SignupTests.signuptest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.SignupTests@331acdad]" name="signuptest" class="Tests.SignupTests"/>
+        <method signature="Onewaytest.oneway(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:Tests.Onewaytest@1852a3ff]" name="oneway" class="Tests.Onewaytest"/>
+        <method signature="Roundtriptest.roundtrip(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:Tests.Roundtriptest@7203c7ff]" name="roundtrip" class="Tests.Roundtriptest"/>
+        <method signature="validatetest.validate(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:Tests.validatetest@7cf6a5f9]" name="validate" class="Tests.validatetest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2024-09-21T12:37:14 IST" name="Test1" finished-at="2024-09-21T12:41:12 IST" duration-ms="237802">
+      <class name="Tests.Logintest">
+        <test-method is-config="true" signature="before()[pri:0, instance:Tests.Logintest@324a0017]" started-at="2024-09-21T12:37:14 IST" name="before" finished-at="2024-09-21T12:37:14 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method is-config="true" signature="beforeSuite(java.lang.String)[pri:0, instance:Tests.Logintest@324a0017]" started-at="2024-09-21T12:38:37 IST" name="beforeSuite" finished-at="2024-09-21T12:38:40 IST" duration-ms="3681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Tests.Logintest@324a0017]" started-at="2024-09-21T12:38:40 IST" name="login" description="Login Test" data-provider="readingdatafromexcel" finished-at="2024-09-21T12:38:46 IST" duration-ms="5886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Arun@12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//small[.='Enter valid mobile number']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Enter valid mobile number]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Tests.Logintest@324a0017]" started-at="2024-09-21T12:38:46 IST" name="afterSuite" finished-at="2024-09-21T12:38:46 IST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method is-config="true" signature="beforeSuite(java.lang.String)[pri:0, instance:Tests.Logintest@324a0017]" started-at="2024-09-21T12:38:46 IST" name="beforeSuite" finished-at="2024-09-21T12:38:50 IST" duration-ms="3521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Tests.Logintest@324a0017]" started-at="2024-09-21T12:38:50 IST" name="login" description="Login Test" data-provider="readingdatafromexcel" finished-at="2024-09-21T12:38:55 IST" duration-ms="5300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9.514248426E9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/form[1]/div[4]/small[1]]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Enter Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Tests.Logintest@324a0017]" started-at="2024-09-21T12:38:55 IST" name="afterSuite" finished-at="2024-09-21T12:38:55 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method is-config="true" signature="beforeSuite(java.lang.String)[pri:0, instance:Tests.Logintest@324a0017]" started-at="2024-09-21T12:38:55 IST" name="beforeSuite" finished-at="2024-09-21T12:38:59 IST" duration-ms="3450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Tests.Logintest@324a0017]" started-at="2024-09-21T12:38:59 IST" name="login" description="Login Test" data-provider="readingdatafromexcel" finished-at="2024-09-21T12:39:04 IST" duration-ms="5609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//small[.='Enter valid mobile number']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Enter valid mobile number]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Tests.Logintest@324a0017]" started-at="2024-09-21T12:39:05 IST" name="afterSuite" finished-at="2024-09-21T12:39:05 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method is-config="true" signature="beforeSuite(java.lang.String)[pri:0, instance:Tests.Logintest@324a0017]" started-at="2024-09-21T12:39:05 IST" name="beforeSuite" finished-at="2024-09-21T12:39:08 IST" duration-ms="3143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Tests.Logintest@324a0017]" started-at="2024-09-21T12:39:08 IST" name="login" description="Login Test" data-provider="readingdatafromexcel" finished-at="2024-09-21T12:39:58 IST" duration-ms="49868" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9.514248426E9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Arun@12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/form[1]/div[4]/small[1]]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid username/password. Please try again]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/form[1]/div[4]/small[1] (tried for 45 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\harin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56233}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56233/devtoo..., se:cdpVersion: 128.0.6613.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c034d9a53e615dcfe52d5607b91e90aa]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/form[1]/div[4]/small[1] (tried for 45 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\harin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56233}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56233/devtoo..., se:cdpVersion: 128.0.6613.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c034d9a53e615dcfe52d5607b91e90aa
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at Utility.utils.actandexpec(utils.java:148)
+at Tests.Logintest.login(Logintest.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Tests.Logintest@324a0017]" started-at="2024-09-21T12:39:58 IST" name="afterSuite" finished-at="2024-09-21T12:39:58 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method is-config="true" signature="beforeSuite(java.lang.String)[pri:0, instance:Tests.Logintest@324a0017]" started-at="2024-09-21T12:39:58 IST" name="beforeSuite" finished-at="2024-09-21T12:40:03 IST" duration-ms="5267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Tests.Logintest@324a0017]" started-at="2024-09-21T12:40:03 IST" name="login" description="Login Test" data-provider="readingdatafromexcel" finished-at="2024-09-21T12:40:09 IST" duration-ms="5830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Arun@12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//small[.='Enter valid mobile number']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Enter valid mobile number]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Tests.Logintest@324a0017]" started-at="2024-09-21T12:40:09 IST" name="afterSuite" finished-at="2024-09-21T12:40:09 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method is-config="true" signature="beforeSuite(java.lang.String)[pri:0, instance:Tests.Logintest@324a0017]" started-at="2024-09-21T12:40:09 IST" name="beforeSuite" finished-at="2024-09-21T12:40:13 IST" duration-ms="3091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Tests.Logintest@324a0017]" started-at="2024-09-21T12:40:13 IST" name="login" description="Login Test" data-provider="readingdatafromexcel" finished-at="2024-09-21T12:41:03 IST" duration-ms="50147" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.23456789E9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Arun@12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/form[1]/div[4]/small[1]]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid username/password. Please try again]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/form[1]/div[4]/small[1] (tried for 45 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\harin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56414}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56414/devtoo..., se:cdpVersion: 128.0.6613.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ac31327fa3cc936172bcabfbe3e492f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/form[1]/div[4]/small[1] (tried for 45 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\harin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56414}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56414/devtoo..., se:cdpVersion: 128.0.6613.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ac31327fa3cc936172bcabfbe3e492f
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at Utility.utils.actandexpec(utils.java:148)
+at Tests.Logintest.login(Logintest.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Tests.Logintest@324a0017]" started-at="2024-09-21T12:41:03 IST" name="afterSuite" finished-at="2024-09-21T12:41:03 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method is-config="true" signature="beforeSuite(java.lang.String)[pri:0, instance:Tests.Logintest@324a0017]" started-at="2024-09-21T12:41:03 IST" name="beforeSuite" finished-at="2024-09-21T12:41:06 IST" duration-ms="3167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Tests.Logintest@324a0017]" started-at="2024-09-21T12:41:06 IST" name="login" description="Login Test" data-provider="readingdatafromexcel" finished-at="2024-09-21T12:41:11 IST" duration-ms="5091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9.514248426E9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Arun@12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[(//div[.='Hi Arun'])[1]]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hi Arun]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Tests.Logintest@324a0017]" started-at="2024-09-21T12:41:11 IST" name="afterSuite" finished-at="2024-09-21T12:41:12 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Tests.Logintest -->
+      <class name="Tests.SignupTests">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:Tests.SignupTests@331acdad]" started-at="2024-09-21T12:37:14 IST" name="beforetest" finished-at="2024-09-21T12:37:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforeSuite(java.lang.String)[pri:0, instance:Tests.SignupTests@331acdad]" started-at="2024-09-21T12:37:15 IST" name="beforeSuite" finished-at="2024-09-21T12:37:18 IST" duration-ms="3873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="signuptest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.SignupTests@331acdad]" started-at="2024-09-21T12:37:18 IST" name="signuptest" description="Signup Test" data-provider="readingdatafromexcel" finished-at="2024-09-21T12:38:36 IST" duration-ms="77877" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arun]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9.514248426E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[arun@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Arun@12345]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Arun@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signuptest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Tests.SignupTests@331acdad]" started-at="2024-09-21T12:38:36 IST" name="afterSuite" finished-at="2024-09-21T12:38:37 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Tests.SignupTests -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-09-21T12:41:12 IST" name="Test2" finished-at="2024-09-21T12:42:40 IST" duration-ms="88444">
+      <class name="Tests.Roundtriptest">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:Tests.Roundtriptest@7203c7ff]" started-at="2024-09-21T12:41:12 IST" name="beforetest" finished-at="2024-09-21T12:41:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforeSuite(java.lang.String)[pri:0, instance:Tests.Roundtriptest@7203c7ff]" started-at="2024-09-21T12:42:00 IST" name="beforeSuite" finished-at="2024-09-21T12:42:03 IST" duration-ms="3267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="roundtrip(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:Tests.Roundtriptest@7203c7ff]" started-at="2024-09-21T12:42:03 IST" name="roundtrip" description="Roundtrip Test" data-provider="readingdatafromexcel" finished-at="2024-09-21T12:42:40 IST" duration-ms="36969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arun]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9.514248426E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[arun@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roundtrip -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Tests.Roundtriptest@7203c7ff]" started-at="2024-09-21T12:42:40 IST" name="afterSuite" finished-at="2024-09-21T12:42:40 IST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Tests.Roundtriptest -->
+      <class name="Tests.Onewaytest">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:Tests.Onewaytest@1852a3ff]" started-at="2024-09-21T12:41:12 IST" name="beforetest" finished-at="2024-09-21T12:41:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforeSuite(java.lang.String)[pri:0, instance:Tests.Onewaytest@1852a3ff]" started-at="2024-09-21T12:41:12 IST" name="beforeSuite" finished-at="2024-09-21T12:41:21 IST" duration-ms="9441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="oneway(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:Tests.Onewaytest@1852a3ff]" started-at="2024-09-21T12:41:21 IST" name="oneway" description="Oneway Test" data-provider="readingdatafromexcel" finished-at="2024-09-21T12:41:59 IST" duration-ms="38103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arun]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9.514248426E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[arun@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneway -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Tests.Onewaytest@1852a3ff]" started-at="2024-09-21T12:41:59 IST" name="afterSuite" finished-at="2024-09-21T12:42:00 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Tests.Onewaytest -->
+    </test> <!-- Test2 -->
+    <test started-at="2024-09-21T12:42:40 IST" name="Test3" finished-at="2024-09-21T12:42:56 IST" duration-ms="16054">
+      <class name="Tests.validatetest">
+        <test-method is-config="true" signature="before()[pri:0, instance:Tests.validatetest@7cf6a5f9]" started-at="2024-09-21T12:42:40 IST" name="before" finished-at="2024-09-21T12:42:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method is-config="true" signature="beforeSuite(java.lang.String)[pri:0, instance:Tests.validatetest@7cf6a5f9]" started-at="2024-09-21T12:42:40 IST" name="beforeSuite" finished-at="2024-09-21T12:42:48 IST" duration-ms="7894" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="validate(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:Tests.validatetest@7cf6a5f9]" started-at="2024-09-21T12:42:48 IST" name="validate" description="Validation Test" data-provider="readingdatafromexcel" finished-at="2024-09-21T12:42:49 IST" duration-ms="262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[(//div[contains(text(),'check-in')])[1]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//div[.='Web Check-In']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Web Check-In]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Tests.validatetest@7cf6a5f9]" started-at="2024-09-21T12:42:49 IST" name="afterSuite" finished-at="2024-09-21T12:42:49 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method is-config="true" signature="beforeSuite(java.lang.String)[pri:0, instance:Tests.validatetest@7cf6a5f9]" started-at="2024-09-21T12:42:49 IST" name="beforeSuite" finished-at="2024-09-21T12:42:52 IST" duration-ms="3284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="validate(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:Tests.validatetest@7cf6a5f9]" started-at="2024-09-21T12:42:52 IST" name="validate" description="Validation Test" data-provider="readingdatafromexcel" finished-at="2024-09-21T12:42:52 IST" duration-ms="290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[(//div[contains(text(),'flight status')])[1]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//div[.='Flight Status']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Flight Status]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Tests.validatetest@7cf6a5f9]" started-at="2024-09-21T12:42:52 IST" name="afterSuite" finished-at="2024-09-21T12:42:53 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method is-config="true" signature="beforeSuite(java.lang.String)[pri:0, instance:Tests.validatetest@7cf6a5f9]" started-at="2024-09-21T12:42:53 IST" name="beforeSuite" finished-at="2024-09-21T12:42:56 IST" duration-ms="3449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="validate(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:Tests.validatetest@7cf6a5f9]" started-at="2024-09-21T12:42:56 IST" name="validate" description="Validation Test" data-provider="readingdatafromexcel" finished-at="2024-09-21T12:42:56 IST" duration-ms="295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[(//div[contains(text(),'manage booking')])[1]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//div[.='View / Manage Booking']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[View / Manage Booking]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Tests.validatetest@7cf6a5f9]" started-at="2024-09-21T12:42:56 IST" name="afterSuite" finished-at="2024-09-21T12:42:56 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Tests.validatetest -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
